@@ -1,0 +1,7 @@
+<?php
+$title = 'Learning PHP Template';
+$description = 'Server Side Includes are cool!';
+$author = 'Hary Capri';
+
+require_once 'function.php';
+?>
