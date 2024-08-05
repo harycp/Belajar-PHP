@@ -20,6 +20,12 @@ usort($people, function($a, $b){
     return $a["age"] <=> $b["age"];
 });
 
-print_r($people);
+// print_r($people);
 
-?>
+$sorting = function() use ($people){
+    usort($people, function($a, $b){
+        return $a["age"] <=> $b["age"];
+    });
+};
+
+$sorting();
